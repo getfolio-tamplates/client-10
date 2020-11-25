@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>layout-1</title>
+      
+        <style>
+            body{
+}
+#body{
+width:800px;
+height:500px;
+}
+#header{
+padding-left:50px;
+padding-right:50px;
+background-color:#debb10;
+color:black;
+height:10;
+border:5px solid black;
+}
+
+
+.row{ display: table;
+ width: 100%; /*Optional*/ 
+table-layout: fixed; /*Optional*/
+ border-spacing: 2px;} 
+
+.column1{ display: table-cell;
+margin:50px;
+border:5px solid black;
+ width:20%;
+background-color:#debb10;
+height:400px;
+color:black;
+} 
+.column2{ 
+background-color:#c6c6c6;
+display: table-cell;
+margin:50px;
+border:5px solid black;
+width:70%;
+padding:5px;
+color:white;
+ }
+#btn{
+background-color:#00c7d9;
+border-radius:5px;
+border:3px solid black;
+color:black;
+}
+#btn1{
+background-color:#00c7d9;
+border:5px solid black;
+color:black;
+width:98%;
+height:80%;
+}
+.col{ 
+background-color:#c0c0c0;
+display: table-cell;
+margin:50px;
+border-left:50px solid #00000000;
+width:32%;
+height:100px;
+padding:5px;
+color:white;
+ }
+#tool{
+background-color:#debb10;
+color:black;
+height:10;
+border:5px solid black;
+padding:2px;
+text-align:left;
+}
+
+        </style>
+    </head>
+    <body>
+        <center><div id="body">
+        <div id="header">Header</div>
+      
+        <div class="row">
+            <div class="column1">
+               <center> Aside</center>
+            </div>
+            
+            <div class="column2">
+                <nav id="tool">
+                    <button id="btn">tool1</button>
+                    <button id="btn">tool2</button>
+                  <button id="btn">tool3</button>
+                    nav bat with buttons
+                   
+                </nav>
+               
+                <p id="btn1">
+                    
+                  <br><br><br><br><br>
+                    <br><br><br>map(through mapstraction)
+                    <br><br><br>
+                    <br><br><br><br><br>
+                </p>
+                </div>
+            
+            
+        </div>
+        
+        <div id="header"><center>Footer</center></div>
+            </div></center>
+            </body>
+</html>
