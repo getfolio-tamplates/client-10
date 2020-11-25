@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>layout-1</title>
+      
+        <style>
+            body{
+}
+#body{
+width:800px;
+height:500px;
+}
+
+
+
+.row{ display: table;
+ width: 100%; /*Optional*/ 
+table-layout: fixed; /*Optional*/
+ border-spacing: 2px;} 
+
+.column1{
+ display: table-cell;
+background-color:#d13800;
+color:black;
+font-size:40px;
+margin:0px;
+width:350px;
+height:450px;
+text-align:left;
+} 
+.column2{ 
+display: table-cell;
+background-color:#c0c0c0;
+color:black;
+font-size:40px;
+margin:0px;
+width:300px;
+height:450px;
+ }
+
+.column3{ 
+display: table-cell;
+background-color:#c0c0c0;
+color:black;
+font-size:40px;
+margin:0px;
+width:100px;
+height:450px;
+}
+.col{
+display: table-cell;
+width:40%;
+color:black;
+
+ }
+
+#css1{
+background-color:#6e03a3;
+border-radius:5px;
+}
+#css2{
+background-color:#038f0c;
+border-radius:5px;
+width:200px;
+height:120px;
+text-align:left;
+border:4px solid #00000000;
+}
+
+        </style>
+    </head>
+    <body>
+       <center> <div id="body">
+        <div class="row">
+            
+            <div class="column1">
+                <img src="Logopit_1606305926713.png" width="100%" height="50%">
+           <br>Crash Course
+            </div>
+            <div class="column2">
+                <div id="css1">
+                    <img src="Logopit_1606288709816.png" height="220px">
+                </div>
+                <div class="col" id="css2">
+                    
+                </div>
+                <div class="col">
+                   
+                </div>
+            </div>
+            <div class="column3">
+                
+            </div>
+            
+            
+        </div>
+           </div></center>
+     </body>
+</html>
